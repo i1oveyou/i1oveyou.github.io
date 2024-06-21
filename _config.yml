@@ -7,7 +7,6 @@ disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
-
 enableTags: true
 tagarray: []
 
@@ -17,20 +16,20 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+    # - icon: fa-facebook
+    #   link: "#"
+    # - icon: fa-twitter
+    #   link: "https://twitter.com/enovella_"
+    # - icon: fa-linkedin
+    #   link: "https://www.linkedin.com/in/eduardo-novella-3b808260/"
+    # - icon: fa-stack-exchange
+    #   link: "#"
     - icon: fa-github
       link: "https://github.com/i1oveyou"
 
 share:
-  twitter_username: i1oveyou
-  fb_appid: 1749788565247320
+  twitter_username: resmilere441915
+  # fb_appid: 1749788565247320
 
 urls:
     - text: About Me
@@ -40,13 +39,13 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://i1oveyou.github.io"
+url: "https://enovella.i1oveyou.io"
 baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-gist
 
@@ -54,5 +53,3 @@ compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
-  ignore:
-    envs: ['development']
