@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Android-UnCrackable L1~L3"
-date:   2021-09-01 19:39:02 +0800
-categories: [bash] 
+date:   2024-06-22 19:39:02 +0800
+categories: [android] 
 ---
 
 
@@ -20,6 +20,8 @@ related files
 链接：https://pan.baidu.com/s/1Haim_T_3eWq_xxE_a7b7SQ?pwd=droz 
 
 提取码：droz
+
+
 
 # 分析环境
 
@@ -97,7 +99,7 @@ IDA 7.2 (有arm64-v8a相关so的分析环境,其它IDA貌似没有)
     }
 ```
 
-
+...
 
 ```
 "/system/app/Superuser.apk",
@@ -214,7 +216,7 @@ UnCrackable-Level2
 # 对于L2的反调试,好像没怎么起到作用, 同时因为高内聚，低耦合的原因,我们可以nop掉 init()的anti_debug()调用
 ```
 
-
+...
 
 
 
@@ -505,7 +507,7 @@ UnCrackable-Level3
 
 
 
-
+...
 
 ```c
 __attribute__((constructor)) static void _start(void) {
