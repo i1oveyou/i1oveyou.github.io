@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Android-UnCrackable-L1~L3"
-date:   2024-06-22 19:39:02 +0800
-categories: [android] 
+title:  "Android-UnCrackable L1~L3"
+date:   2021-09-01 19:39:02 +0800
+categories: [bash] 
 ---
 
 
