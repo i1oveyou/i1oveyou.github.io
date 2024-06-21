@@ -2,7 +2,7 @@
 layout: post
 title:  "Android-UnCrackable-L1~L3"
 date:   2024-06-22 19:39:02 +0800
-categories: [android-reverse,] 
+categories: [android-reverse] 
 ---
 
 
@@ -600,8 +600,6 @@ so层
 大概是因为 检测手段 如果涉及java层的检查, 同时检测函数 **高内聚，低耦合**, 
 
  
-
-
 
 以上见解和手法 均来自自己学过的一些Windows逆向知识,所以很局限约束
 

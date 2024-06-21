@@ -44,7 +44,7 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 
 
-## ssh上传
+> ssh上传
 
 为什么不用https,这个老是出现问题.
 
@@ -52,5 +52,15 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 ```
 git remote set-url origin git@github.com:i1oveyou/i1oveyou.github.io.git
+```
+
+
+
+>  upload
+
+```
+git add .
+git commit -m "happy every day"
+git push -u origin master
 ```
 
