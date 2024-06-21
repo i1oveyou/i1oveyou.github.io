@@ -1,10 +1,12 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+title: Knowledge Sharing
+description: A Simple Blog by redqx
+author: redqx
+github: https://github.com/i1oveyou
+about: I am a mobile security research engineer at NowSecure. Also, independent contractor evaluating mobile payments, DRM, whitebox crypto, video-games, malware, embedded devices and all related with software security. Based in Europe/UK/US
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
+
 
 enableTags: true
 tagarray: []
@@ -24,10 +26,10 @@ social:
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/i1oveyou"
 
 share:
-  twitter_username: github.io
+  twitter_username: i1oveyou
   fb_appid: 1749788565247320
 
 urls:
@@ -38,7 +40,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://i1oveyou.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
