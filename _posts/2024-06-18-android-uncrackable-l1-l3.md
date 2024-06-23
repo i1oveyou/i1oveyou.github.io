@@ -193,17 +193,33 @@ IDA 7.2 (有arm64-v8a相关so的分析环境,其它IDA貌似没有)
 
 ### so: 子进程attach父进程
 
-大概的效果, apk变为了2个进程
+我想大概的效果就是
 
-父进程被子进程调试
+子进程调试父进程
 
-子进程一直处于debug循环,又没啥好调试的.
+父进程无法被调试器连接
+
+子进程又不是我们想要调试的
+
+
+
+但是, 我发现
 
 
 
 #### 案例1
 
 在 Android-UnCrackable-L2, 有应用
+
+
+
+
+
+**IDA一开始调试so:** 父进程被调试, fork后,子进程无法对父进程调试 . 
+
+**IDA中途调试so:**, 父进程被子进程调试, IDA无法调试so
+
+
 
 ```
 UnCrackable-Level2
@@ -231,23 +247,25 @@ UnCrackable-Level2
 
 static int child_pid;
 
-void* monitor_pid(void *) {
-    //only works when target-sDK below 28, now removed
-//    int status;
-//
-//    waitpid(child_pid, &status, 0);
-//
-//    if (status != 11) {
-//
-//        // If this is a release build, the child will segfault (status 11). Otherwise, waitpid() should never return.
-//
-//        goodbye(); // Commit seppuku
-//    }
+
+ 
+
+void *monitor_pid(void *) {
+
+    int status;
+
+    waitpid(child_pid, &status, 0);
+
+    if (status != 11) {
+
+        // If this is a release build, the child will segfault (status 11). Otherwise, waitpid() should never return.
+
+        _exit(0); // Commit seppuku
+    }
 
     pthread_exit(NULL);
 
 }
-
 void   anti_debug() {
 
     child_pid = fork();
@@ -311,20 +329,18 @@ int main(){
 
 
 ```c
- 
-
-void *monitor_pid(void *) {
-
-    int status;
-
-    waitpid(child_pid, &status, 0);
-
-    if (status != 11) {
-
-        // If this is a release build, the child will segfault (status 11). Otherwise, waitpid() should never return.
-
-        _exit(0); // Commit seppuku
-    }
+void* monitor_pid(void *) {
+    //only works when target-sDK below 28, now removed
+//    int status;
+//
+//    waitpid(child_pid, &status, 0);
+//
+//    if (status != 11) {
+//
+//        // If this is a release build, the child will segfault (status 11). Otherwise, waitpid() should never return.
+//
+//        goodbye(); // Commit seppuku
+//    }
 
     pthread_exit(NULL);
 

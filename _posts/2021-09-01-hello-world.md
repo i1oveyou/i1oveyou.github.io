@@ -10,37 +10,9 @@ categories: [others]
 
 
 
-## Create a new post
+直接下载博客模板 http://jekyllthemes.org/
 
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-## Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-## Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-## Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+之后只需要在模板修改内容, git上传即可
 
 
 
@@ -92,17 +64,40 @@ git push -u origin master
             <iframe src="https://ghbtns.com/github-btn.html?user=enovella&repo=enovella.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
             <iframe src="https://ghbtns.com/github-btn.html?user=enovella&repo=enovella.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
           </div>
-          
-          
-     ===>改为   
-              <div class="btn-github" style="float:right;">
-                <iframe src="https://ghbtns.com/github-btn.html?user=i1oveyou&repo=i1oveyou.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-                <iframe src="https://ghbtns.com/github-btn.html?user=i1oveyou&repo=i1oveyou.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-              </div>
+
+
+​          
+​     ===>改为   
+​              <div class="btn-github" style="float:right;">
+​                <iframe src="https://ghbtns.com/github-btn.html?user=i1oveyou&repo=i1oveyou.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+​                <iframe src="https://ghbtns.com/github-btn.html?user=i1oveyou&repo=i1oveyou.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+​              </div>
 
  
 
+
 # toc
+
+
+
+ _layouts\post.html
+
+https://github.com/allejo/jekyll-toc
+
+https://www.70apps.com/blog/code/2021/10/27/JEKYLL_TOC_THEME.html
+
+只需要在xx出添加一句`<div class="content_toc">{% include toc.html html=content %}</div>`
+
+如下所示
+
+```
+<div class="content_toc">{% include toc.html html=content %}</div>
+
+<div class="content">
+  <div class="post">{{ content }}</div>
+  {% include share-page.html %}
+</div>
+```
 
 
 

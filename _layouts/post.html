@@ -12,12 +12,17 @@ layout: default
   </span>
 {% endif %}
 
-<div class="content_toc">{% include toc.html html=content %}</div>
+<div>
+  <h1>Table of Contents</h1>
+  <div>{% include toc.html html=content %}</div>
+</div>
 
 <div class="content">
   <div class="post">{{ content }}</div>
   {% include share-page.html %}
 </div>
+
+{% include codeHeader.html %}
 
 {% assign hasSimilar = '' %}
   {% for post in site.posts  %}
@@ -72,4 +77,5 @@ layout: default
     })();
     /* ]]> */
   </script>
+  <script src="/static/js/copyCode.js"></script>
 </div>
