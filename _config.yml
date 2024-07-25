@@ -1,0 +1,51 @@
+remote_theme: eliottvincent/bay
+
+title: count time
+description: >- # this means to ignore newlines until "baseurl:"
+  Record every day
+baseurl: "/i1oveyou.github.io" # the subpath of the site
+url: "https://i1oveyou.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
+
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: 工作
+      slug: /work
+    - name: 年报
+      slug: /blog
+footer:
+  show_powered_by: true
+  contact:
+    - type: email
+      name: Email
+      value: resmile0927@gmail.com
+    - type: wechat
+      value: YourWeChatUsername
+      link: "#"
+  follow:
+    - type: twitter
+      name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+      username: "@YourTwitterUsername"
+    # - type: facebook
+    #   name: Facebook
+    #   link: http://facebook.com/YourFacebookUsername
+    # - type: linkedin
+    #   name: LinkedIn
+    #   link: http://linkedin.com/in/YourLinkedInUsername
+    - type: github
+      name: GitHub
+      link: http://github.com/redqx
+    # - type: dribbble
+    #   name: Dribbble
+    #   link: https://dribbble.com/YourDribbbleUsername
+    - type: rss
+      name: RSS
+      link: /feed.xml
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
