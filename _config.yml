@@ -1,8 +1,8 @@
 remote_theme: eliottvincent/bay
 
-title: count time
+title: 阿香正传
 description: >- # this means to ignore newlines until "baseurl:"
-  Record every day
+  描绘时间的轮廓
 baseurl: "/" # the subpath of the site
 url: "https://i1oveyou.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
