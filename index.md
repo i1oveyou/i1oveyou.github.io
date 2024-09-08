@@ -13,16 +13,6 @@ profile_picture:
 
 
 
-> 我的其它站点
-
-
-
-<a href="https://redqx.github.io/">技术博客: redqx.space</a>
-
-<a href="https://i1oveyou.github.io/2024-year">日记: 2024-year</a>
-
-<a href="https://i1oveyou.github.io/2023-year">日记: 2023-year</a>
-
 
 
 >  about me
@@ -32,4 +22,16 @@ profile_picture:
 亦或者说: 一个被低级欲望支配的动物
 
 爱好: 看书,打羽毛球,乒乓球.
+
+
+
+> 我的其它站点
+
+
+
+<a href="https://redqx.github.io/">技术博客: redqx.space</a>
+
+<a href="https://i1oveyou.github.io/2024-year">日记: 2024-year</a>
+
+<a href="https://i1oveyou.github.io/2023-year">日记: 2023-year</a>
 
