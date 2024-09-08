@@ -4,6 +4,6 @@ title: Blog
 slug: /blog
 ---
 
-This is an example of a "Blog" page, displaying a list of posts.
+对每一年做一个回顾和总结
 <br />
 

@@ -14,9 +14,9 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: 工作
+    - name: 工作履历
       slug: /work
-    - name: 年报
+    - name: 年度报告
       slug: /blog
 footer:
   show_powered_by: true
@@ -25,13 +25,13 @@ footer:
       name: Email
       value: resmile0927@gmail.com
     - type: wechat
-      value: YourWeChatUsername
+      value: wechat
       link: "#"
   follow:
     - type: twitter
       name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
+      link: https://x.com/smilere441915
+      username: "@smilere441915"
     # - type: facebook
     #   name: Facebook
     #   link: http://facebook.com/YourFacebookUsername

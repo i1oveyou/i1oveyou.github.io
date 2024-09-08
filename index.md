@@ -5,14 +5,31 @@ profile_picture:
   alt: website picture
 ---
 
-<p>
-  我是人间惆怅客，知君何事泪纵横，断肠声里忆平生。
-</p>
 
-<p>my-other-site</p>
 
-<a href="https://redqx.github.io/">blog</a>
+"**我是人间惆怅客，知君何事泪纵横，断肠声里忆平生**" --- 纳兰性德《浣溪沙·残雪凝辉冷画屏》
 
-<a href="https://i1oveyou.github.io/2024-year">2024-year</a>
+**"众里寻他千百度。蓦然回首，那人却在，灯火阑珊处"** ---辛弃疾《青玉案·元夕》
 
-<a href="https://i1oveyou.github.io/2023-year">2023-year</a>
+
+
+> 我的其它站点
+
+
+
+<a href="https://redqx.github.io/">技术博客: redqx.space</a>
+
+<a href="https://i1oveyou.github.io/2024-year">日记: 2024-year</a>
+
+<a href="https://i1oveyou.github.io/2023-year">日记: 2023-year</a>
+
+
+
+>  about me
+
+喜欢看黄推的LSP 😁😁😁
+
+亦或者说: 一个被低级欲望支配的动物
+
+爱好: 看书,打羽毛球,乒乓球.
+
