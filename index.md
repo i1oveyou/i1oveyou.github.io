@@ -31,6 +31,8 @@ profile_picture:
 
 <a href="https://redqx.github.io/">技术博客: redqx.space</a>
 
+<a href="https://i1oveyou.github.io/books">看点闲书：读书笔记</a>
+
 <a href="https://i1oveyou.github.io/2024-year">日记: 2024-year</a>
 
 <a href="https://i1oveyou.github.io/2023-year">日记: 2023-year</a>
