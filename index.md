@@ -7,6 +7,8 @@ profile_picture:
 
 
 
+
+
 "**我是人间惆怅客，知君何事泪纵横，断肠声里忆平生**" --- 纳兰性德《浣溪沙·残雪凝辉冷画屏》
 
 **"众里寻他千百度。蓦然回首，那人却在，灯火阑珊处"** ---辛弃疾《青玉案·元夕》
@@ -16,6 +18,8 @@ profile_picture:
 
 
 >  about me
+
+
 
 喜欢看黄推的LSP 😁😁😁
 
@@ -32,6 +36,8 @@ profile_picture:
 <a href="https://redqx.github.io/">技术博客: redqx.space</a>
 
 <a href="https://i1oveyou.github.io/books">看点闲书：读书笔记</a>
+
+<a href="https://i1oveyou.github.io/time-machine/">时光回忆录，回忆过往的点点滴滴</a>
 
 <a href="https://i1oveyou.github.io/2024-year">日记: 2024-year</a>
 
