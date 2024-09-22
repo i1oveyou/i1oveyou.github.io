@@ -39,6 +39,8 @@ profile_picture:
 
 <a href="https://i1oveyou.github.io/time-machine/">时光回忆录，回忆过往的点点滴滴</a>
 
+<a href="https://i1oveyou.github.io/hobby/">兴趣爱好</a>
+
 <a href="https://i1oveyou.github.io/2024-year">日记: 2024-year</a>
 
 <a href="https://i1oveyou.github.io/2023-year">日记: 2023-year</a>
