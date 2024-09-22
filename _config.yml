@@ -49,3 +49,14 @@ footer:
       link: /feed.xml
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
+# Gitalk  评论功能
+gitalk: 
+  enable: true    #是否开启Gitalk评论
+  clientID: Ov23liOqK8mh3fxph6o2    #生成的clientID，下面会讲
+  clientSecret: 22e4e7ded2a1353b99f06f7649fb4f397e7f7e30 #生成的clientSecret
+  repo: i1oveyou.github.io    #仓库名称
+  owner: i1oveyou    #github用户名
+  admin: i1oveyou
+  distractionFreeMode: false #是否启用类似FB的阴影遮罩
